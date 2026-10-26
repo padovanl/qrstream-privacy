@@ -33,26 +33,26 @@
   a {
     color: #38BDF8;
   }
-  .placeholder {
-    background: #1E293B;
-    border: 1px dashed #475569;
-    padding: 2px 6px;
-    border-radius: 4px;
-    color: #FCD34D;
-  }
 </style>
 </head>
 <body>
 
 <h1>QRStream Privacy Policy</h1>
-<p class="updated">Last updated: <span class="placeholder">11th August 2026</span></p>
+<p class="updated">Last updated: 26 October 2026</p>
 
 <p>
-QRStream ("the app") transfers files between two devices by encoding them
-into a sequence of QR codes on one screen and scanning them back with the
-other device's camera. Transfers work entirely offline and never use an
-internet connection; the only part of the app that goes online is Google
-Play Billing, for the one-time purchase described below.
+QRStream transfers files between two devices by encoding them into a
+sequence of QR codes on one screen and scanning them back with the other
+device's camera. Transfers work entirely offline and never use an internet
+connection.
+</p>
+
+<p>
+This policy covers both QRStream apps: the Android app on Google Play and
+the Windows app on the Microsoft Store. They are two halves of the same
+product and handle data the same way, with one difference noted under
+Purchases: the Android app talks to Google Play Billing, and the Windows
+app makes no network requests of any kind.
 </p>
 
 <h2>Data collection</h2>
@@ -63,7 +63,8 @@ app has no analytics, no advertising SDKs, and no user accounts.
 
 <h2>Camera permission</h2>
 <p>
-QRStream requests the CAMERA permission solely to scan the QR codes shown by
+QRStream requests camera access - the CAMERA permission on Android, webcam
+access on Windows - solely to scan the QR codes shown by
 the sending device, in real time, in order to reassemble the transferred
 file. Camera frames are processed entirely on your device and are never
 saved, uploaded, or shared. No photo or video is stored beyond the momentary
@@ -74,15 +75,17 @@ in-memory processing needed to decode a QR code.
 <p>
 Files you select to send, and files you receive, are stored only locally on
 your device (the app's private storage while a transfer is in progress, and
-your device's Downloads folder once a transfer completes). QRStream never
-uploads these files anywhere.
+your device's Downloads folder once a transfer completes; on Windows, the
+folder you choose). QRStream never uploads these files anywhere.
 </p>
 
 <h2>Purchases</h2>
 <p>
-Sending files above 500KB requires a one-time in-app purchase. Purchases
-are handled entirely by Google Play Billing - QRStream never sees or stores
-your payment details. The app only stores, locally on your device, whether
+Sending files above 500KB requires a one-time in-app purchase, made in the
+Android app. Purchases are handled entirely by Google Play Billing -
+QRStream never sees or stores your payment details. The Windows app has no
+purchase flow at all: it is unlocked by a code generated on the phone, so
+it never contacts Google, or any other server. The app only stores, locally on your device, whether
 that purchase was made, so it can be restored automatically if you
 reinstall the app on an account that already owns it.
 </p>
@@ -109,7 +112,7 @@ address.
 <h2>Contact</h2>
 <p>
 Questions about this policy can be sent to
-<span class="placeholder">qrstream.support@gmail.com</span>.
+<a href="mailto:qrstream.support@gmail.com">qrstream.support@gmail.com</a>.
 </p>
 
 </body>
